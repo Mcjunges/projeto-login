@@ -28,6 +28,17 @@
         float: right;
         width: 70%;
     }
+
+    div#formulario > h1 {
+        text-align: center;
+        font-size: 1.7em;
+        margin-bottom: 10px;
+    }
+
+    div#formulario > p {
+        text-align: center;
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -41,13 +52,24 @@
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    div#formulario > p {
+        text-align: center;
+        font-size: 1.5em;
     }
 }
